@@ -5,7 +5,9 @@ int main(int argc, char* argv[]){
 
     printf("\n starting recursion example\n");
     all_combinations ac;
-    ac.itterative(2);
+
+    //k numbers in n combinations
+    ac.itterative(2, 4);
 
     return 0;
 }

@@ -5,7 +5,7 @@
 
 class all_combinations {
 public:
-    int itterative(int n);
+    int itterative(int n, int k);
     int recursive(int n);
 
 private:
